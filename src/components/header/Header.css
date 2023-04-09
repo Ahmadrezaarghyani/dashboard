@@ -1,0 +1,43 @@
+.header{
+    width: 85%;
+    height: auto;
+    background-color: #1f1f1f ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+ .header img{
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.user-info{
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+i{
+    scale: 1.4;
+}
+.user-info p{
+    margin-left: 10px;
+}
+.search-box{
+    display: flex;
+    padding: 15px;
+}
+input{
+    outline: none;
+    margin-left: 10px;
+    direction: ltr;
+    border: none;
+    border-bottom: 2px solid rgb(158, 157, 157);
+    background: none;
+}
+::placeholder{
+    color: beige;
+}
